@@ -26,9 +26,6 @@ def get_headers(file_name)
 	return headers
 end
 
-header_line = get_headers('example_data.csv')
-header_line += ["Position Type", "Function Type"]
-
 def read_line_to_array(line)
 
 	read_line = line.inject([]) do |array, index|
@@ -40,6 +37,9 @@ def read_line_to_array(line)
 	
 end
 
+
+header_line = get_headers('example_data.csv')
+header_line += ["Position Type", "Function Type"]
 
 CSV.open('new_file.csv','w') do |csv|
 
