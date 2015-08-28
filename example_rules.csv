@@ -1,0 +1,14 @@
+Target Columns,Target Phrase,Outcome Column,Outcome Label,Rule Active?
+3,Social Worker,Position Type,Social-Emotional Staff,Yes
+3,Psychologist,Position Type,Social-Emotional Staff,Yes
+3,Teacher,Position Type,Teacher,Yes
+3,Teacher Assistant,Position Type,TA,Yes
+3,Coach,Position Type,Instructional Coach,Yes
+"0,1,2,3",Utilities,Function Type,Utilities,Yes
+"0,1,2,3",Electric,Function Type,Utilities,Yes
+"0,1,2,3",Gas,Function Type,Utilities,Yes
+"0,1,2,3",Sewage,Function Type,Utilities,Yes
+"0,1,2,3",Human Resources,Function Type,Human Resources,Yes
+3,Teacher,Function Type,Instruction,Yes
+3,Teacher Assistant,Function Type,Instruction,Yes
+3,Coach,Function Type,Instruction,Yes
